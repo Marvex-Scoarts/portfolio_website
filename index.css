@@ -1,0 +1,168 @@
+/* Body Section*/
+body{
+    background-color: #021825;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Start of the Header Section*/
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+header nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    background-color: #8BC34A;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/*End of the Header Section*/
+
+/*The Start of the Section Styling For The WebPage*/
+
+section{
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/* The End of the Section Styling For The WebPage*/
+
+/*Start of the Home Section*/
+
+#home{
+    background-color: #f7dc6f;
+    padding: 20px;
+    text-align: center;
+}
+
+#home h1{
+    margin-top: 0;
+}
+
+#home button{
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#home button:hover{
+    background-color: #3e8e41;
+}
+
+/*End of the Home Section*/
+
+/*Start of the About Section*/
+
+#about {
+    background-color: #eee;
+    padding: 20px;
+}
+
+#about h1{
+    margin-top: 0;
+}
+
+.story .testimonial{
+    margin-top: 20px;
+}
+
+#about button{
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#about button:hover{
+    background-color: #3e8e41;
+}
+/*End Of The About Section*/
+
+/*Start Of The Contact Section*/
+#contact{
+    background-color: #ffa723;
+    padding: 20px;
+}
+
+#contact h1{
+    margin-top: 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"]{
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: #3e8e41;
+}
+
+
+
+/*Start of the Footer Section*/
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+/*End of the Footer Section*/
+
+address a{
+    color: #455a64;
+    text-decoration: none;
+}
